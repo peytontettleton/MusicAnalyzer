@@ -41,6 +41,7 @@ namespace MusicAnalyzer
                 Console.WriteLine(e.Message);
                 Environment.Exit(3);
             }
+
         }
     }
 }

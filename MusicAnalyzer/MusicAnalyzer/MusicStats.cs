@@ -16,9 +16,6 @@ namespace MusicAnalyzer
         public int Time;
         public int Year;
         public int Plays;
-        
-
-
 
         public MusicStats(string name, string artist, string album, string genre, int size,
                          int time, int year, int plays)
@@ -31,7 +28,7 @@ namespace MusicAnalyzer
             Time = time;
             Year = year;
             Plays = plays;
-            
+
         }
     }
 }

@@ -48,7 +48,7 @@ namespace MusicAnalyzer
             }
 
             Console.WriteLine("Songs before 1970:");
-            var OldManMusic = from MusicStats in musicStatsList where MusicStats.Year < 1970 select MusicStats.Year;
+            var OldManMusic = from MusicStats in musicStatsList where MusicStats.Year < 1970 select musicStatsList;
             foreach (var musicStatList in OldManMusic)
             {
                 Console.WriteLine(musicStatList.ToString());
